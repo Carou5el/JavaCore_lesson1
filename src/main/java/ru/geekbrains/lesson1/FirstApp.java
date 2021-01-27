@@ -1,3 +1,9 @@
+/*
+ * 25.01.2021.
+ * Java Core. 1.
+ * Работа с переменными, методами.
+ *
+ */
 
 package ru.geekbrains.lesson1;
 
