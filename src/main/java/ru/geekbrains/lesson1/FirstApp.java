@@ -74,5 +74,4 @@ public class FirstApp {
             System.out.println("Год " + inputYear + " - не високосный.");
         }
     }
-
 }
