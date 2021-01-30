@@ -76,4 +76,5 @@ public class FirstApp {
         // ни одно из условий не прошло, значит год - не високосный.
         System.out.println("Год " + inputYear + " - не високосный.");
     }
+
 }
