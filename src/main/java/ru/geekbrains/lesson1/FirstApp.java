@@ -60,21 +60,19 @@ public class FirstApp {
         if (inputYear % 400 == 0)   {
             // сразу на входе проверяем, что год - високосный.
             System.out.println("Год " + inputYear + " - високосный.");
-            return;
         }
         else if (inputYear % 100 == 0)  {
             // этот - точно не високосный.
             System.out.println("Год " + inputYear + " - не високосный.");
-            return;
         }
         else if (inputYear % 4 == 0)  {
             // год - високосный.
             System.out.println("Год " + inputYear + " - високосный.");
-            return;
         }
-
-        // ни одно из условий не прошло, значит год - не високосный.
-        System.out.println("Год " + inputYear + " - не високосный.");
+        else    {
+            // ни одно из условий не прошло, значит год - не високосный.
+            System.out.println("Год " + inputYear + " - не високосный.");
+        }
     }
 
 }
